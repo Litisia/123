@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    width: 752px;
+    margin: 0 auto;
+}
+
+.header {
+
+    margin: 0 auto;
+    background-color: #2D7053;
+    padding: 45px 40px;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header_logo {
+    width: 144px;
+    height: 144px;
+}
+
+.header_title {
+    text-transform: capitalize;
+    font-weight: 400;
+    white-space: normal;
+    color: white;
+    text-align: left;
+    width: 135px;
+    height: 130px;
+    font-size: 30px;
+    margin-bottom: 32px;
+}
+
+.header_menu {
+    margin-left: 260px;
+}
+
+.hat {
+    background-image: linear-gradient(rgba(9, 9, 9, 0.414), 10%, rgba(14, 13, 14, 0.414)),
+        url(/HomeWork/image/room.png);
+    /*background-image: linear-gradient(90deg, rgba(90, 88, 88, 0.27) 0%, rgba(62, 60, 60, 0.39) 100%),
+        url(/HomeWork/image/room.png);*/
+    width: 752px;
+    height: 465px;
+
+}
+
+
+
+.orange a {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 30px 46px;
+    background-color: #CB9223;
+    margin-top: 340px;
+    margin-left: 250px;
+}
+
+.content {
+    padding: 80px 40px 0 50px;
+}
+
+.content_foto {
+    display: flex;
+    width: 255px;
+    height: 256px;
+}
+
+
+.content_name {
+    width: 210px;
+    height: 27px;
+    text-align: left;
+    font-size: 30px;
+    flex: none;
+    margin: 60px;
+}
+
+.content_text {
+    width: 245px;
+    height: 50px;
+    font-size: 20px;
+    text-align: left;
+    padding: 15px 0 0 0;
+}
+
+.main {
+    padding: 46px 60px 46px 20px;
+}
+
+.main_text {
+    width: 590px;
+    height: 166px;
+    font-size: 20px;
+    text-align: left;
+    margin: 0 0 30px 0;
+}
+
+.why {
+    font-size: 15px;
+}
+
+.why h1{
+    width: 545px;
+    height: 32px;
+}
+
+.button a{
+    text-decoration: none;
+    width: 344px;
+    height: 77px;
+    background-color: #CB9223;
+    color: #fff;
+    display: inline-block;
+    padding: 27px 20px 25px 75px;
+    margin: 40px -0 0 130px;
+
+}
+
+.footer{
+    width: 752px;
+    height: 156px;
+    background-color: #888;
+    padding: 29px 44px 29px 44px;
+    color: #fff;
+}
+
+/*.down_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.down_adress{
+    width: 220px;
+    height: 20px;
+ margin: auto;
+    padding: 70px 0 0 20px;
+}
+
+.down_logo img{
+    float: left;
+}
+
+.down_text{
+    float: right;
+    margin: -47px 0px 0 0
+}
