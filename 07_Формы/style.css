@@ -5,8 +5,8 @@
 }
 
 a {
-   color: black;
-   text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
 html,
@@ -14,11 +14,11 @@ body {
     height: 100%;
 }
 
-form{
+form {
     width: 100%;
 }
 
-div form p input[type=submit]{
+div form p input[type=submit] {
     cursor: pointer;
     color: white;
     font-weight: 600;
@@ -29,7 +29,14 @@ div form p input[type=submit]{
     margin: 5% 0;
     display: inline-block;
     border: none;
-    background: linear-gradient(90deg, rgba(156,247,237,1) 0%, rgba(34,53,209,1) 35%, rgba(243,0,255,1) 100%);
+    transition: all .25s;
+    background: linear-gradient(90deg, rgba(156, 247, 237, 1) 0%, rgba(34, 53, 209, 1) 35%, rgba(243, 0, 255, 1) 100%);
+}
+
+input[type=submit]:hover{
+    background: linear-gradient(90deg, rgb(185, 156, 247) 0%, rgb(4, 16, 103) 35%, rgb(85, 255, 0) 100%);
+    box-shadow: 0 2px 20px rgb(0 0 0 / 50%);
+    font-weight: 700;
 }
 
 body {
@@ -41,14 +48,15 @@ body {
     background-size: cover;
 }
 
-.login-cart h2{
+.login-cart h2 {
     margin: 4%;
     padding: 0;
     color: rgb(4 15 64 / 72%);
     text-align: center;
 }
 
-input[type=email], input[type=password] {
+input[type=email],
+input[type=password] {
     width: 100%;
     padding: 12px 5px;
     margin: 8px 0;
@@ -56,6 +64,8 @@ input[type=email], input[type=password] {
     border: none;
     border-bottom: 2px solid #ADADAD;
     background-color: transparent;
+    transition: all .25s;
+    opacity: 0.6;
 }
 
 .login-cart {
@@ -68,9 +78,54 @@ input[type=email], input[type=password] {
     box-shadow: 0 2px 20px rgb(0 0 0 / 50%);
 }
 
-div > p{
+div > p {
     text-align: center;
     font-size: 10px;
     margin: 20% 0 10%;
     color: #847d7d;
+}
+
+/*Password Look*/
+.password {
+    position: relative;   
+}
+
+.password-control {
+    position: absolute;
+    color: #ADADAD;
+    top: 28%;
+    right: 2%;
+}
+
+form > p:nth-child(1) {
+    position: relative;
+}
+
+form label {
+    position: absolute;
+    opacity: 0.6;
+    left: 0.5rem;
+    pointer-events: none;
+    color: #ADADAD;
+    transition: all .22s;
+    top: 40%;
+    transform: translateY(-50%);
+    display: block;
+}
+
+
+form input:focus {
+    border: none;
+    border-bottom: 3px solid #453bc9;
+    background-color: transparent;
+    outline: 0;
+}
+
+form input:focus+label,
+form input:hover+label {
+    top: 0;
+    font-size: 1.125rem;
+    transform: translateY(0);
+    left: 0;
+    opacity: 1;
 }
