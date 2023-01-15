@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <title>Форма входа</title>
 </head>
 
@@ -14,10 +15,12 @@
         <h2>Форма входа</h2>
         <form method="post" action="./index.php" enctype="text/plain">
             <p>
-                <input type="email" name="email" placeholder="Email">
+                <input type="email" name="email" > <!--placeholder="Email"-->
+                <label>Email</label>
             </p>
-            <p>
+            <p class="password">
                 <input type="password" name="pass" placeholder="Password">
+                <a href="#" class="password-control"><i class="fa fa-eye"></i></a>
             </p>
 
             <p>
@@ -25,6 +28,7 @@
             </p>
         </form>
         <p>У вас нет учетной записи? <a href="#">Зарегистрироваться</a></p>
+
 
     </div>
 </body>
