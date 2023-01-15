@@ -27,7 +27,6 @@ div form p input[type=submit] {
     width: 100%;
     padding: 6% 2%;
     margin: 5% 0;
-    display: inline-block;
     border: none;
     transition: all .25s;
     background: linear-gradient(90deg, rgba(156, 247, 237, 1) 0%, rgba(34, 53, 209, 1) 35%, rgba(243, 0, 255, 1) 100%);
@@ -40,12 +39,14 @@ input[type=submit]:hover{
 }
 
 body {
-    display: grid;
-    place-items: center;
-    margin: 0;
+    display: flex;
+    /* margin: 10% 0 10% 0; */
     padding: 0 24px;
     background-color: #023b6d8c;
     background-size: cover;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .login-cart h2 {
@@ -60,18 +61,17 @@ input[type=password] {
     width: 100%;
     padding: 12px 5px;
     margin: 8px 0;
-    display: inline-block;
     border: none;
     border-bottom: 2px solid #ADADAD;
     background-color: transparent;
     transition: all .25s;
-    opacity: 0.6;
+    color: #bdb9b9;
 }
 
 .login-cart {
-    display: grid;
-    place-items: center;
-    padding: 5% 3% 0;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 5% 3% 2%;
     width: 350px;
     background-color: #ffffffc6;
     border-radius: 5%;
@@ -129,3 +129,5 @@ form input:hover+label {
     left: 0;
     opacity: 1;
 }
+
+
