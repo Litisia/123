@@ -1,0 +1,140 @@
+* {
+    font-family: 'Noto Serif', serif;
+
+}
+
+
+
+body {
+    background-image: url(./images/bg.png);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+main {
+    margin: 3em 4em;
+}
+
+
+a {
+    font-family: 'Noto Serif';
+    color: #0b0b0b;
+}
+
+.h-n-item,
+.item,
+.main-iten {
+    margin: .8em;
+}
+
+.logo img {
+    width: 160px;
+}
+
+
+
+/*Header*/
+.header-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-image: linear-gradient(120deg, hsla(0, 20%, 99%, 0.618) 0%, rgba(236, 238, 239, 0.629) 100%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0b0b0b;
+}
+
+.header-nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: auto;
+    text-transform: uppercase;
+}
+
+.h-n-item{
+    transition: .30s;
+}
+
+.h-n-item:hover {
+    font-size: 150%;
+}
+
+
+.language {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+
+
+
+/*Left Menu*/
+.left-menu {
+    position: sticky;
+    top: 20px;
+    float: left;
+    margin-right: 100px;
+    margin-top: 20px;
+    background-color: #faebd780;
+    padding: 1% 0.5%;
+    border: 1px solid aliceblue;
+    transition: .15s;
+}
+
+.left-menu:hover{
+    background-color: brown;
+    border-color: #000000;
+}
+
+/*Main*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f8ff7d;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+.intro-info {
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #050505;
+}
+
+
+
+.main-containt h1 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.main-containt p {
+    margin-top: 30px;
+}
+
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(120deg, hsla(0, 20%, 99%, 0.618) 0%, rgba(236, 238, 239, 0.629) 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+    height: 165px;
+}
+
+
