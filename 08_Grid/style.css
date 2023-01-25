@@ -25,7 +25,14 @@
 }
 
 
-
+@-moz-document url-prefix() {
+	.header-search input {
+		height: 27px;
+		padding-bottom: 2px;
+        margin-left: 63px;
+        width: 70%;
+	}
+}
 
 
 /*Material icons  /\ */
