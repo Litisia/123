@@ -14,15 +14,15 @@ header .nav-item a:hover {
 
 header {
     background-image: url(./images/bg-header.png);
-    background-position: 100%;
+    /*background-position: 100%;*/
     background-size: cover;
-    height: 633px;
+    /*height: 633px;*/
 }
 
 .header-first {
     background-color: rgba(0, 0, 0, 0.7);
-    background-position: 100%;
-    background-size: cover;
+    /*background-position: 100%;
+    background-size: cover;*/
 }
 
 .form {
@@ -74,8 +74,8 @@ header {
 
 .services {
     background-image: url(./images/bg-blok3.jpg);
-    background-position: 100%;
-    background-size: cover;
+    /*background-position: 100%;
+    background-size: cover;*/
     height: 410px;
 }
 
@@ -100,3 +100,33 @@ footer {
 .nav-item a:hover {
     color: #0dd42b;
 }
+
+
+/* Landscape - телефоны */
+@media (max-width: 480px) { 
+    .nav-menu-footer {
+        display: flex;
+        flex: column;
+    }
+ }
+ 
+/* От ландшафтного экрана телефона до потретного планшета */
+@media (max-width: 767px) { 
+    footer {
+        display: flex;
+        flex: column;
+    }
+ }
+
+/* От портретного планшета до ландшафтного экрана и настольных дисплеев */
+@media (min-width: 768px) and (max-width: 979px) { 
+    .nav-1 {
+        display: flex;
+        flex: column;
+    }
+ }
+
+/* Большой дисплей 
+@media (min-width: 1200px) { 
+
+ }*/
