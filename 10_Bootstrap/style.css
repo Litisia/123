@@ -1,0 +1,102 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+
+header .nav-item a {
+    color: #ffffff;
+    transition: all, .2s;
+}
+
+header .nav-item a:hover {
+    color: #0dd42b;
+}
+
+header {
+    background-image: url(./images/bg-header.png);
+    background-position: 100%;
+    background-size: cover;
+    height: 633px;
+}
+
+.header-first {
+    background-color: rgba(0, 0, 0, 0.7);
+    background-position: 100%;
+    background-size: cover;
+}
+
+.form {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-item {
+    font-size: 21.4px;
+    line-height: 1.2;
+}
+
+
+.form-group button {
+    background-color: #0dd42b;
+}
+
+.form-group h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 23.8px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+#text-input,
+#email,
+#tel-input {
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    text-align: center;
+    font-size: 18.8px;
+    border-radius: 0;
+
+}
+
+.intro h1 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #020202;
+}
+
+.text-intro {
+    font-size: 18px;
+    line-height: 1.2;
+    color: #020202;
+    font-weight: 400;
+}
+
+.services {
+    background-image: url(./images/bg-blok3.jpg);
+    background-position: 100%;
+    background-size: cover;
+    height: 410px;
+}
+
+.services p {
+    margin-top: 1em;
+    font-size: 24.3px;
+    line-height: 1.2;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer {
+    background: rgba(0, 0, 0, 1)
+}
+
+
+.nav-item a {
+    color: #ffffff;
+    transition: all, .2s;
+}
+
+.nav-item a:hover {
+    color: #0dd42b;
+}
